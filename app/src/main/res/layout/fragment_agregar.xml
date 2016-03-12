@@ -1,0 +1,92 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.gerardo.testfirebase.fragment.AgregarFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        >
+    <LinearLayout
+        android:id="@+id/linear_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Selecciona la Mesa"
+            android:id="@+id/textView3" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_mesas"
+            android:entries="@array/listado_mesas" />
+
+    </LinearLayout>
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_mostrar_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agregar Desayuno"
+            android:background="@color/colorLoginButtonOpaco"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@+id/linear_lay"
+            android:padding="12dp"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_mostrar_almuerzo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agregar Almuerzo"
+            android:background="@color/colorLoginButtonOpaco"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@+id/btn_mostrar_menu"
+            android:padding="12dp"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_mostrar_postre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agregar Postre"
+            android:background="@color/colorLoginButtonOpaco"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@+id/btn_mostrar_almuerzo"
+            android:padding="12dp"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_finalizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Finalizar mesa"
+            android:background="@color/colorPrimary"
+            android:elevation="12dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@+id/btn_mostrar_postre"
+            android:padding="12dp"/>
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">TestFirebase</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="toolbar_title">Meseros</string>
+    <string name="toolbar_bienvenida">Bienvenido</string>
+    <string name="name_navdrawer">Gerardo Mascayano</string>
+    <string name="email_navdrawer">Gerardo.mascayano@gmail.com</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_home_name">Inicio</string>
+    <string name="nav_add_name">Agregar</string>
+    <string name="nav_del_name">Eliminar</string>
+    <string name="nav_upd_name">Actualizar</string>
+    <string-array name="listado_mesas">
+        <item>Elegir Mesa</item>
+        <item>Mesa 1</item>
+        <item>Mesa 2</item>
+        <item>Mesa 3</item>
+        <item>Mesa 4</item>
+        <item>Mesa 5</item>
+        <item>Mesa 6</item>
+        <item>Mesa 7</item>
+        <item>Mesa 8</item>
+        <item>Mesa 9</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_registrate">Registrarse</string>
+    <string name="title_activity_register">Registro</string>
+    <string name="hint_email">Ingrese su correo</string>
+    <string name="hint_clave">Ingrese su clave</string>
+    <string name="toolbar_registrar">Registro</string>
+    <string name="title_activity_inicio">Inicio</string>
+    <string name="txt_ingresar">Ingresar</string>
+    <string name="txt_mostrar_menu">Agregar Menu</string>
+</resources>

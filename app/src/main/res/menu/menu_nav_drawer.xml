@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:icon="@drawable/ic_home"
+            android:title="@string/nav_home_name"
+            >
+        </item>
+        <item
+            android:id="@+id/nav_agregar"
+            android:checked="true"
+            android:icon="@drawable/ic_add"
+            android:title="@string/nav_add_name"
+            >
+        </item>
+        <item
+            android:id="@+id/nav_eliminar"
+            android:checked="true"
+            android:icon="@drawable/ic_delete"
+            android:title="@string/nav_del_name"
+            >
+        </item>
+        <item
+            android:id="@+id/nav_actualizar"
+            android:checked="true"
+            android:icon="@drawable/ic_update"
+            android:title="@string/nav_upd_name"
+            >
+        </item>
+    </group>
+
+</menu>
